@@ -24,7 +24,7 @@
 	                               (4,'Radha','IT',9000,'mota')
 	                               (5,'krishna','HR',8000,'surat')"
         
-        cur.execute(c1)
+        cur.executemany(c1)
         con.commit()
 	# insert record using tuple
 	v=[(6,'vibhuti','Account',9000,'vesu'),
